@@ -1,5 +1,5 @@
 <HTML><BODY>
-<style>TABLE,TD,TH{border:1px solid black;border-collapse:collapse;}
+<style hidden>TABLE,TD,TH{border:1px solid black;border-collapse:collapse;}
 th{text-align:left;background-color:AliceBlue;}
 H1,H2{padding-left:15px}
 .smallText{font-size:10px; color:black; font-family:courier}
