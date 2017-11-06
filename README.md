@@ -2,7 +2,7 @@
 #### Provides basic traffic quickcalls for the STC Tcl API session type and response maps for result and statistics views. Tested with STC FW version 4.75. 
 #### <b>Tags:</b> Test Equipment, Traffic Generator
 #### 
-### 1 QuickCall Library in project://d_STC:
+#### 1 QuickCall Library in project://d_STC:
 ## STC Tcl API Quick Call Library (project://d_STC/session_profiles/STC_TclAPI_QCLib.fftc)
 #### STC Tcl API Quickcalls
 **main**
@@ -22,4 +22,4 @@ run_time | Time in seconds to run traffic
 ### Stop all traffic generators in current STC config
 **GetPortInfo**
 ### Get info on all ports in the current STC config.
-Created on: Monday November 06 2017 12:29:10 CST
+Created on: Monday November 06 2017 12:30:48 CST
