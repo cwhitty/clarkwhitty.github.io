@@ -5,9 +5,21 @@
 ### 1 QuickCall Library in project://d_STC:
 ### STC Tcl API Quick Call Library (project://d_STC/session_profiles/STC_TclAPI_QCLib.fftc)
 ### STC Tcl API Quickcalls
-<DIV style='margin-left:30px; font-size:18px;color:darkgreen;font-weight:bold; font-family:courier'>main</DIV>
-<DIV style='margin-left:30px; font-size:18px;color:darkgreen;font-weight:bold; font-family:courier'>StartArp</DIV>
-<DIV style='margin-left:30px; font-size:18px;color:darkgreen;font-weight:bold; font-family:courier'>RunTraffic</DIV>
-<DIV style='margin-left:30px; font-size:18px;color:darkgreen;font-weight:bold; font-family:courier'>StartTraffic</DIV>
-<DIV style='margin-left:30px; font-size:18px;color:darkgreen;font-weight:bold; font-family:courier'>StopTraffic</DIV>
-<DIV style='margin-left:30px; font-size:18px;color:darkgreen;font-weight:bold; font-family:courier'>GetPortInfo</DIV>
+* main *
+### 
+* StartArp *
+### Starts ARP/ND on all devices in config. Returns status in a JSON block.
+Returns block 
+ status "OK" if all ARPs resolve successfully, "error" otherwise
+* RunTraffic *
+### Run all traffic generators in current STC config for a specified time and return basic traffic stats.
+Argument | Description
+------------ | -------------
+run_time | Time in seconds to run traffic
+* StartTraffic *
+### Start all traffic generators in current STC config
+* StopTraffic *
+### Stop all traffic generators in current STC config
+* GetPortInfo *
+### Get info on all ports in the current STC config.
+Created on: Monday November 06 2017 12:14:34 CST
